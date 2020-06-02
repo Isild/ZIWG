@@ -116,7 +116,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
 #textinput-textarea {
   width: 60%;
   height: 500px;
@@ -143,7 +143,9 @@ export default {
   opacity: 0;
 }
 
-circle {
-  fill: transparent !important;
+.vld-overlay circle {
+  fill: unset;
+  stroke: unset;
+  stroke-width: unset;
 }
 </style>
